@@ -79,8 +79,14 @@
 		<h1>Ondrej Bilek</h1>
 		<p class="role">Member of Technical Staff, Tailscale</p>
 		<nav class="links">
-			<a href="https://github.com/bilcus">github</a><span class="sep">·</span><a href="https://www.linkedin.com/in/ondrejbilek">linkedin</a><span class="sep">·</span><a href="https://twitter.com/Bilcus">twitter</a><span class="sep">·</span><a href="mailto:bilcuss@gmail.com">email</a>
+			<a href="https://github.com/bilcus">github</a><span class="sep">·</span><a href="https://www.linkedin.com/in/ondrejbilek">linkedin</a><span class="sep">·</span><a href="https://twitter.com/Bilcus">twitter</a><span class="sep">·</span><a id="email" href="#">email</a>
 		</nav>
 	</main>
+	<script>
+		(function () {
+			var user = "bilcuus", domain = "gmail.com";
+			document.getElementById("email").href = "mailto:" + user + "@" + domain;
+		})();
+	</script>
 </body>
 </html>
